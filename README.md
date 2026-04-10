@@ -1,73 +1,54 @@
-# React + TypeScript + Vite
+🔐 React Login Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple login page built using React and JavaScript, focusing on user interface and basic form validation.
 
-Currently, two official plugins are available:
+🚀 Features
+Input fields for email and password
+Form validation
+Error handling for invalid inputs
+Clean and responsive user interface
+🛠️ Technologies Used
+JavaScript
+React
+CSS
+📚 What I Learned
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+During this project, I was able to improve my skills in:
 
-## React Compiler
+React hooks (useState)
+Component structure and organization
+Handling user input and validation
+Building functional and user-friendly interfaces
+▶️ Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To run this project locally:
 
-## Expanding the ESLint configuration
+//----------------------------//
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Clone the repository
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+git clone https://github.com/LBMedeiros/react-login-page.git
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Navigate into the project folder
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+cd react-login-page
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+# Install dependencies
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+npm install
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+# Run the project
+
+npm start
+//----------------------------//
+
+📌 Future Improvements
+Add authentication integration (API)
+Improve UI/UX design
+Add TypeScript support
+Implement better form validation
+👨‍💻 Author
+GitHub: https://github.com/LBMedeiros
+🤝 Contributing
+
+Feel free to fork this project and make improvements!
