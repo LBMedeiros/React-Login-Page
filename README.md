@@ -44,8 +44,11 @@ Add authentication integration (API)
 Improve UI/UX design
 Add TypeScript support
 Implement better form validation
+
 👨‍💻 Author
-GitHub: https://github.com/LBMedeiros
-🤝 Contributing
+Developed by Lucas Medeiros.
+
+💡 Notes
+This project is continuously evolving as I improve my programming skills and explore new features.
 
 Feel free to fork this project and make improvements!
