@@ -23,8 +23,6 @@ Building functional and user-friendly interfaces
 
 To run this project locally:
 
-//----------------------------//
-
 # Clone the repository
 
 git clone https://github.com/LBMedeiros/react-login-page.git
@@ -40,7 +38,6 @@ npm install
 # Run the project
 
 npm start
-//----------------------------//
 
 📌 Future Improvements
 Add authentication integration (API)
